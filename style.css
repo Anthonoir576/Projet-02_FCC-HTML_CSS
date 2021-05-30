@@ -1,0 +1,230 @@
+body {
+  font-family: "Mate SC", "Lora", "Roboto Slab", serif;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.2), rgba(136, 136, 206, 0.7)), url(image/1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-weight: 100;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  position: fixed;
+  top: 0.2rem;
+  max-width: 90px;
+}
+#logo > img {
+  width: 35px;
+  height: 30px;
+}
+
+#title {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 4em;
+  border: 1px solid rgba(67, 19, 224, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+  background-color: rgba(67, 19, 224, 0.5);
+  width: 500px;
+  padding: 0em 0.1em 0.2em 0em;
+  text-align: center;
+  margin: 0.5em auto 0 auto;
+}
+
+body p {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
+  padding: 0.1em;
+}
+
+#survey-form {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 1em;
+  padding-left: 1.6em;
+  padding-top: 2em;
+  width: 35em;
+  height: 90em;
+  color: white;
+  font-size: 1.3em;
+  font-weight: 100;
+  border: 1px solid rgba(67, 19, 224, 0.2);
+  border-radius: 50px;
+  background-color: rgba(67, 19, 224, 0.5);
+  box-shadow: 0px 0px 20px 1px black;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 9px;
+  width: 31.8em;
+  height: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 2.5em;
+  margin-left: 1em;
+  font-size: 1em;
+}
+
+label {
+  margin-left: 1.1em;
+  font-weight: 400;
+}
+
+#select-option p {
+  margin-left: 1.1em;
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: left;
+}
+
+select {
+  display: flex;
+  justify-content: center;
+  border-radius: 9px;
+  width: 32em;
+  height: 3em;
+  margin-top: -0.6em;
+  margin-bottom: 2.5em;
+  margin-left: 1.1em;
+  background-color: white;
+  font-size: 1em;
+}
+
+option {
+  display: flex;
+  justify-content: center;
+}
+
+#radio-all {
+  margin-top: 5em;
+}
+
+#radio-all input {
+  font-size: 0.4em;
+  width: 2em;
+}
+
+#radio-all label {
+  font-size: 1em;
+  margin-top: 0.1em;
+}
+
+#radio-all p {
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: left;
+  margin-left: 1.1em;
+  margin-bottom: 2.5em;
+  width: 480px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#radio1 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#radio2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#radio3 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#box-all {
+  margin-top: 4em;
+}
+
+#box-all input {
+  font-size: 0.4em;
+  width: 2em;
+}
+
+#box-all label {
+  font-size: 1em;
+  margin-top: 0.1em;
+}
+
+#box-all p {
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: left;
+  margin-left: 1.1em;
+  margin-bottom: 2.5em;
+  width: 490px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#box1 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#box2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#box3 {
+  display: flex;
+  justify-content: left;
+  margin-left: 0.9em;
+}
+
+#zone-text-all {
+  margin-top: 4em;
+}
+
+#zone-text-all p {
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: left;
+  margin-left: 1.1em;
+  margin-bottom: 2.5em;
+  width: 360px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#zone-text-all textarea {
+  margin-left: 1.1em;
+  width: 39.5em;
+  height: 20em;
+  font-size: 1em;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#bouton-valider button {
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 0.7em;
+  background-color: greenyellow;
+  color: #2c0d92;
+  width: 10em;
+  height: 3em;
+  margin-left: 1.4em;
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */

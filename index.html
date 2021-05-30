@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+    <head>
+        
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet" />
+
+
+        <title>Inscription formulaire :</title>
+    </head>
+
+    <body>
+        <div id="logo">
+            <img src="image/mylogo.png" alt="logo" />
+        </div>
+
+        <h1 id="title"> &bull; My Concept &bull; </h1>
+
+        <p id="description"> Web developer - Front-end </p>
+
+        <form id="survey-form">
+            <label for="name" id="name-label" class="label-control"> Noms : </label>
+            <input id="name" class="input-control" name="name" type="text" placeholder=" Entrer votre noms *" required />
+
+            <label for="email" id="email-label" class="label-control"> E-mail : </label>
+            <input id="email" class="input-control" name="email" type="email" placeholder=" Entrer votre e-mail *" required />
+
+            <label for="number" id="number-label" class="label-control"> Age (optionnel) : </label>
+            <input id="number" class="input-control" name="age" type="number" min="18" max="99" placeholder=" Entrer votre Age " />
+ 
+            <div id="select-option">
+                <p>Quel est votre niveau de connaissance en programmation ?</p>
+                <select name="role" id="dropdown" class="label-control" required>
+                    <option disabled selected value> Selectionnez ici *</option>
+                    <option value="Débutant"> Débutant </option>
+                    <option value="Intermédiaire"> Intermédiaire </option>
+                    <option value="Avancé"> Avancé </option>
+                    <option value="Avancé++"> Je suis tombé dedans lorsque j'étais petit ! </option>
+                </select>
+            </div>
+
+            <div id="radio-all">
+                <p> Es-ce que vous recommanderiez My Concept Web ? </p>
+
+                <div id="radio1">
+                    <input class="radio-control" name="recommandation" value="Yes!" type="radio" checked />
+                    <label class="radio-control-label"> Oh oui ! </label>
+                </div>
+                <div id="radio2">
+                    <input class="radio-control" name="recommandation" value="maybe.." type="radio" />
+                    <label class="radio-control-label"> Peut-être ...</label>
+                </div>
+                <div id="radio3">    
+                    <input class="radio-control" name="recommandation" value="nop.." type="radio" /> 
+                    <label class="radio-control-label"> Oh que non ! </label>
+                </div>
+
+            </div>
+
+            <div id="box-all">
+                <p> Qu'es-ce que vous appreciez chez My Concept Web ? </p>
+
+                <div id="box1">
+                    <input class="box-control" name="recommandation" value="front-end" type="checkbox" checked />
+                    <label class="box-control-label"> Le front-end </label>
+                </div>
+                <div id="box2">
+                    <input class="box-control" name="recommandation" value="back-end" type="checkbox" />
+                    <label class="box-control-label"> Le back-end </label>
+                </div>
+                <div id="box3">    
+                    <input class="box-control" name="recommandation" value="graphique" type="checkbox" /> 
+                    <label class="box-control-label"> L'originalité graphique .. </label>
+                </div> 
+            </div>
+
+            <div id="zone-text-all">
+                <p> Une suggestion à nous faire parvenir ? </p>
+                <textarea id="zone-text" maxlength="500" name="commentaire" placeholder=" Votre suggestion ..."></textarea>
+            </div>
+
+            <div id="bouton-valider">
+                <button type="submit" id="submit" class="submit-button"> Valider </button>
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
